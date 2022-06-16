@@ -32,3 +32,84 @@
     padding: 10px;
     font-family: consolas;
 }
+
+
+/* CONTACT FORM */ 
+
+.form-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 80%;
+    margin: 10% auto;
+
+    
+}
+
+.flexbox {
+    display:flex;
+    align-items: center;
+    background-color:#212730;
+    margin-top: 30px;
+    width: 30%;
+    padding: 10px 0px 10px;
+    max-width: 100%;
+}   
+
+#form {
+    display: block;
+    max-width: 100%;
+    margin:auto;
+    color:#eff0eb;
+    font-family: consolas;
+}
+
+.contactform {
+    padding: 2px; 
+    margin: 5px 0 5px; 
+}
+
+
+::placeholder {
+    font-family: consolas;
+    font-size: 12px;
+}/* CONTACT FORM */ 
+
+.form-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 80%;
+    margin: 10% auto;
+
+    
+}
+
+.flexbox {
+    display:flex;
+    align-items: center;
+    background-color:#212730;
+    margin-top: 30px;
+    width: 30%;
+    padding: 10px 0px 10px;
+    max-width: 100%;
+}   
+
+#form {
+    display: block;
+    max-width: 100%;
+    margin:auto;
+    color:#eff0eb;
+    font-family: consolas;
+}
+
+.contactform {
+    padding: 2px; 
+    margin: 5px 0 5px; 
+}
+
+
+::placeholder {
+    font-family: consolas;
+    font-size: 12px;
+}
