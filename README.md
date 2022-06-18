@@ -1,6 +1,4 @@
-# my-first-portfolio
-Tracking development of my first portfolio.
+# FCC-Portfolio
+This is an offshoot of the personal portfolio I started earlier, but following the "Personal Portfolio" challenge from freeCodeCamp instead just to have a structure to build off of. All the code is completely rewritten from scratch and is not related to the main project. Not sure if/when I will eventually merge the two. 
 
-I am currently working my way through the Web Development Applications course at WGU. I've found it harder to remember things if I don't try to apply them, so although my degree is going to be in Software Development, I thought it would be helpful to apply the knowledge learned in the Web Development course to create a portfolio website - or at least make the attempt! 
 
-This repository will track my progress through creating my first website. 
