@@ -1,30 +1,102 @@
-<!DOCTTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="styles.css">
-        <meta charset="UTF-8">
-        <title></title>
-            <!--[if lt IE9]><script src="html://html5shim.googlecode.com/svn/trunk/html5.js"></script><! [end if]-->
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>My Project</title>
+</head>
 
-    <body>
-        <header>
-          <div id="navbar">
-            <nav>
-                <a class="navlink" href="#about">About</a>
-                <a class="navlink" href="#blog">Blog</a>
-                <a class="navlink" href="#projects">Projects</a>
-                <a class="navlink" href="#contact">Contact</a>
-            </nav>
-          </div>
-        </header>
-        <main>
 
-        </main>
-        <footer id="footer">
-            <div class="footer">
-                <copyright>Last Updated: June 2022</copyright>
+
+<body>
+    <!--------------------------------------------------------------->
+    <!-------------------     NAVBAR SECTION    -------------------->
+    <!--------------------------------------------------------------->
+    <div class="container">
+        <div class="nav-flex">
+            <header id="header">
+    
+                    <nav id="navbar">
+                        <ul>
+                            <li><a href="#about" class="nav-link" id="about">About</a></li>
+                            <li><a href="#projects" class="nav-link" id="projects">Projects</a></li>
+                            <li><a href="#contact" class="nav-link" id="contact">Contact</a></li>
+                            <li><a href="" class="navlink" id="profile-link">Github</a></li>
+                        </ul>
+                    </nav>
+
+            </header>
+        </div>
+    </div>
+
+        <!--------------------------------------------------------------->
+        <!----------------    END OF NAVBAR SECTION    ----------------->
+        <!--------------------------------------------------------------->
+
+
+
+
+        <!--------------------------------------------------------------->
+        <!-------------------     WELCOME SECTION    -------------------->
+        <!--------------------------------------------------------------->
+    <div class="container2">
+        <section id="welcome-section">
+
+            <!-- IDEAS:
+            Name, short description. Icons below description showing technologies
+            I'm familiar with.-->
+
+            <h1>Kate Roland</h1>
+            <p>Web developer looking for new opportunities.</p>
+
+        </section>
+
+        <!--------------------------------------------------------------->
+        <!----------------    END OF WELCOME SECTION    ----------------->
+        <!--------------------------------------------------------------->
+        
+
+
+
+        <!--------------------------------------------------------------->
+        <!-------------------     PROJECT SECTION    -------------------->
+        <!--------------------------------------------------------------->
+        
+
+        <!-- IDEAS: 
+        Each project will have a "tile" with a picture thumbnail and a short description as well as 
+        a View Code and Details button. When clicking on the details button, JS script will expand 
+        the card and shift the other cards downward. Uses the "Expanding Card" project, but puts it 
+        into a column flexbox instead of a row.-->
+        <section id="projects">
+            
+            <div class="project-tile">
+
             </div>
+        </section>
+
+
+        <!--------------------------------------------------------------->
+        <!----------------    END OF PROJECT SECTION    ----------------->
+        <!--------------------------------------------------------------->
+
+        <script src="script.js"></script>
+
+        <!--------------------------------------------------------------->
+        <!-------------------     FOOTER  SECTION    -------------------->
+        <!--------------------------------------------------------------->    
+
+        <footer>
+
         </footer>
-    </body>
+
+        <!--------------------------------------------------------------->
+        <!----------------    END OF  FOOTER SECTION    ----------------->
+        <!--------------------------------------------------------------->
+    </div>
+</body>
 </html>
