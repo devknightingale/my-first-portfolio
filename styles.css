@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+
+
+
+
+
 /* GLOBAL STYLE STUFF */
 :root {
     --red: #be3144;
@@ -77,7 +82,7 @@ li a {
     position: absolute;
     top: 30%;
     align-items: center;
-    height: 20vw;
+    height: 50vw;
     /* background-color: blue;  */
 }
 
@@ -100,11 +105,11 @@ li a {
 
 /* START PROJECTS SECTION */
 .panelwrapper {
-    background-color: var(--blue); 
+    background-color: #fcfbfb; 
     position: relative;
     width: 100vw;
-    top: 100%;
-    height: 50vw;
+    top: 1000px;
+    height: 1000px;
     
 }
 
@@ -117,7 +122,6 @@ header#projects {
     top: 5vw;
     font-size: 24px; 
     color: white;
-    /* background-color: red; */
 }
 
 .panelwrapper > header::after {
@@ -132,17 +136,102 @@ header#projects {
 }
 
 .container3 {
-    /* Remember to change display back to flex. Changed to none to hide the green & placeholder text for now. */
-    display: none;
     position: relative; 
+    display: flex;
+    flex-direction: row; 
+    flex-flow: wrap; 
+    flex-basis: 200px; 
     align-items: center;
     justify-content: center;
-    top: 30%;
-    width: 100%;
-    /* background-color: green; */
+    top: 10%;
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    overflow: auto hidden;
+}
+
+.panel {
+    background-color: white; 
+    height: 400px; 
+    min-height: fit-content;
+    min-width: 150px;
+    width: 10%;
+    margin: 10px;
+    padding: 30px;
+    transition: flex 0.7s ease-in; 
+     
+    overflow: hidden;
+    font-size: 14px;    
+    border: 1px solid #e0e0e0;
+   
+}
+
+.panel:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #cccccc;
+    background-color: white;
+  }
+
+.panelbreak { 
+    color: #eeeded;
+    opacity: 1;
+    transition: opacity 0.0s ease-in 0.5s;
+}
+
+.panel p.desc {
+    font-size: 12px;
+    
+}
+
+.panel header {
+    opacity: 1;
+    font-size: 14px; 
+    text-align: center; 
+    font-weight: bold;
+    transition: opacity 0.0s ease-in 0.5s;
+}
+
+.panel h1 {
+    opacity: 0;
+    text-align: center;
+    margin-top: -20px;
+    font-size: 14px;
+
+}
+
+
+.thumbnail img {
+    max-width: 100%; 
+    border: 1px solid #e0e0e0;
     
     
 }
+
+
+/* BUTTONS */
+
+
+.demo, .code { 
+    margin: 10% 0 0 10%; 
+    font-size: 12px;
+    background-color: var(--smokegrey);
+    cursor: pointer;
+    color:var(--black); 
+    font-weight: bold; 
+    border-radius: 5px;  
+    
+}
+
+.demo:hover, .code:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    /* to do: find a better color scheme for these buttons  */
+    color: white;
+    
+}
+
 
 /* END PROJECTS SECTION */
 
