@@ -82,7 +82,7 @@ li a {
     position: absolute;
     top: 30%;
     align-items: center;
-    height: 50vw;
+    height: 50vh;
     /* background-color: blue;  */
 }
 
@@ -152,6 +152,7 @@ header#projects {
 
 .panel {
     background-color: white; 
+    color: #bdbdbd;
     height: 400px; 
     min-height: fit-content;
     min-width: 150px;
@@ -159,7 +160,6 @@ header#projects {
     margin: 10px;
     padding: 30px;
     transition: flex 0.7s ease-in; 
-     
     overflow: hidden;
     font-size: 14px;    
     border: 1px solid #e0e0e0;
@@ -172,6 +172,7 @@ header#projects {
     top: -4px;
     border: 1px solid #cccccc;
     background-color: white;
+    color: var(--black);
   }
 
 .panelbreak { 
@@ -210,17 +211,27 @@ header#projects {
 }
 
 
-/* BUTTONS */
 
+/* BUTTONS */
+.btn-center { 
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+    gap: 5px;
+    justify-content: center;
+
+}
 
 .demo, .code { 
-    margin: 10% 0 0 10%; 
+ 
     font-size: 12px;
-    background-color: var(--smokegrey);
+    background-color: var(--black);
     cursor: pointer;
-    color:var(--black); 
-    font-weight: bold; 
-    border-radius: 5px;  
+    color: white; 
+    border: none;
+    padding: 3px 7px 3px 7px;
+    
+
     
 }
 
